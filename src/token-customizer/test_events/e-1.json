@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "triggerSource": "TokenGeneration_Authentication",
+  "region": "us-west-2",
+  "userPoolId": "sample-id",
+  "userName": "benbpyle",
+  "callerContext": {
+    "awsSdkVersion": "aws-sdk-unknown-unknown",
+    "clientId": "fake-client-id"
+  },
+  "request": {
+    "userAttributes": {
+      "sub": "fake-sub",
+      "email_verified": "true",
+      "cognito:user_status": "CONFIRMED",
+      "cognito:email_alias": "fake-email@email.com",
+      "name": "cognito:default_val",
+      "phone_number_verified": "true",
+      "phone_number": "+999-999-9999",
+      "email": "fake-email@email.com"
+    },
+    "groupConfiguration": {
+      "groupsToOverride": [],
+      "iamRolesToOverride": [],
+      "preferredRole": null
+    }
+  },
+  "response": {
+    "claimsOverrideDetails": null
+  }
+}
