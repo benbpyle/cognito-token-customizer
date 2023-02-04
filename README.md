@@ -1,6 +1,6 @@
 # Cognito Token Customer Sample
 
-Simple Repos that supports the blog article on Binaryheap.com. 
+Simple Repos that supports the blog article on [Binaryheap.com](https://www.binaryheap.com/w6t7). 
 
 ### CDK Infra
 
